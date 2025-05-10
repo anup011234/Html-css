@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application form</title>
+  </head>
+  <body>
+    <h1>Teacher Application form</h1>
+    <h4>All the information marked with "*" are Mandatory fields</h4>
+    <form action="/submit" method="get">
+      <caption>
+        Username
+      </caption>
+      <input
+        type="text"
+        name="Username"
+        placeholder="Enter your username*"
+        required
+      />
+      <caption>
+        Password
+      </caption>
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter your password*"
+        required
+      />
+<br<br><hr>
+<caption>Gender -</caption>
+      <input type="radio" name="Gender" id="Male"/>
+      <label for="Male">Male</label>
+      <input type="radio" name="Gender" id="Female">
+      <label for="Female">Female</label>
+     
+      <br><hr>
+      <label for="Dob">Enter Your DOb</label>
+      <input type="date" name="Dob" id="Dob" required>
+      <br><hr>
+      
+     
+    </select></form>
+    <form action="index.html">
+        <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea><br>
+        <select name="fruits">
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="cherry">Cherry</option>
+        </select><br>
+        <textarea name="text" id="comments" rows="5" cols="50">Enter your thoughts here</textarea>
+       <br> <input type="submit" value="Submit">
+  </form>
+  </body>
+</html>
